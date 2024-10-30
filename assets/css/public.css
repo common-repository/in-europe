@@ -1,0 +1,41 @@
+.proeuropa_bottom_bar .icon img{
+	height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.proeuropa_bottom_bar .icon{
+	float: right;
+}
+.proeuropa_bottom_bar .text{
+	float: right;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 10px;
+	line-height: 70px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+.proeuropa_bottom_bar{
+    background-color: #333;
+    height: 70px;
+}
+
+
+.proeuropa_bottom_bar .left .icon{
+	float: left;
+}
+.proeuropa_bottom_bar .left .text{
+	float: left;
+	margin-left: 10px;
+	margin-right: 0;
+}
+.proeuropa_bottom_bar .left .icon img{
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 500px) {
+	.proeuropa_bottom_bar .left .text{
+		font-size: 12px;
+	}
+}

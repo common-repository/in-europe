@@ -1,0 +1,67 @@
+#icon_type_chooser{
+	margin-bottom: 32px;
+}
+
+.preset_icon label {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.preset_icon input[type=radio] {
+    display: none;
+}
+.preset_icon label{
+	border-radius: 5px;
+	padding: 5px;
+}
+.preset_icon input:checked+label{
+	background-color: #00a0d2;
+}
+
+.bar_preview .icon img{
+	height: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.bar_preview .icon{
+	float: right;
+}
+.bar_preview .text{
+	float: right;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 10px;
+	line-height: 70px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+
+.bar_preview .left .icon{
+	float: left;
+}
+.bar_preview .left .text{
+	float: left;
+	margin-left: 10px;
+}
+.bar_preview .icon img{
+    margin-left: 20px;
+}
+
+
+
+.bar_preview{
+	max-width: 700px;
+    background-color: #333;
+    height: 70px;
+}
+
+#bottom_bar_text,
+#proeuropa_link_to{
+	width: 100%;
+	max-width: 700px;
+}
+
+#wpfooter{
+	display: none;
+}
